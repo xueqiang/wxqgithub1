@@ -1,0 +1,7 @@
+<project name="My Web Service Build" default="wsimport">
+    <target name="wsimport">
+        <exec executable="wsimport">
+            <arg line="-keep -s ./src -p com.wxq.service.client http://localhost:9898/HelloWeb?wsdl"/>
+        </exec>          
+    </target>
+</project>
