@@ -1,7 +1,7 @@
 package de.wxq.ws.service;
 
-import com.wxq.service.client.HelloWeb;
-import com.wxq.service.client.HelloWebService;
+import de.wxq.ws.client.HelloWeb;
+import de.wxq.ws.client.HelloWebService;
 
 public class Client {
 
